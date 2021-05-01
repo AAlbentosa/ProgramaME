@@ -11,9 +11,9 @@ public class PoniendoLaMesa {
 			int copas=Scan.nextInt();
 			
 			if(copas==0) break;
-			
-            if(copas==1)System.out.println(1);
-            else System.out.println(copas-(copas%2));
+		
+			if(copas==1)System.out.println(1);
+            		else System.out.println(copas-(copas%2));
 		}
 	}
 }
