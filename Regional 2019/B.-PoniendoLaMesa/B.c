@@ -7,8 +7,7 @@ int main(void){
         if (copas==0)break;
         
         if(copas!=1){
-            printf ("%d\n",copas-copas%2);
- 
+            printf ("%d\n",copas-copas%2); 
        }else{
             printf ("1\n");
         }
