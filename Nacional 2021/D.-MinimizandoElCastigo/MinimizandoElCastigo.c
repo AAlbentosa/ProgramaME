@@ -1,14 +1,10 @@
 #include <stdio.h>
 int main(void){
+        int x, y, lines;
+        scanf("%d", &y);
     
-    int y;
-    scanf("%d", &y);
-
-    int x;
-    
-    for (x = 0; x < y; ++x){
-        int z;
-        scanf("%d", &z);
-        printf("%d\n",(int)ceil(log2(z)));
-    }
+        for (x = 0; x < y; ++x){
+                scanf("%d", &lines);
+                printf("%d\n",(int)ceil(log2(lines)));
+        }
 }
